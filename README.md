@@ -28,18 +28,18 @@ Change the file path (refer to the parameter 'param_file')  in the AugLPNNILM_te
 3. Run redd_processing.py and uk_dale_processing.py to get the prepared dataset for training and test.
    (note that the preprocessing of UK_DALE dataset needs another step :put the preprocessed data in "dataset_preprocess/created_data/UK_DALE/" )
 The structure of folder directory is as follows:
-   ’dataset_processing/ <br>
-        created_data/ <br>
-            REDD/ <br>
-            UK_DALE/ <br>
-        low_freq/ <br>
-            house_1/ <br>
-            house_2/ <br>
-            ... <br>
-        UK_DALE/ <br>
-            house_2/ <br>
-        redd_processing.py <br>
-        ukdale_processing.py <br>‘
+   dataset_processing/ <br>
+   &nbsp;created_data/ <br>
+            &nbsp;&nbsp;REDD/ <br>
+            &nbsp;&nbsp;UK_DALE/ <br>
+        &nbsp;low_freq/ <br>
+            &nbsp;&nbsp;house_1/ <br>
+            &nbsp;&nbsp;house_2/ <br>
+            &nbsp;&nbsp;... <br>
+        &nbsp;UK_DALE/ <br>
+            &nbsp;&nbsp;house_2/ <br>
+        &nbsp;redd_processing.py <br>
+        &nbsp;ukdale_processing.py <br>
 
 # 2. Start the training
 You can run AugLPNNILM_train.py to verify the results in our paper after you have preprocessed all the dataset.
