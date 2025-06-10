@@ -21,7 +21,7 @@ Some already well-trained models ('*.h5' files) are in the folder directory '/mo
 Change the file path (refer to the parameter 'param_file')  in the AugLPNNILM_test.py, and you will get the results soon.
     For example: param_file = args.trained_model_dir + '/UK_DALE'+ '/AugLPN_' + args.appliance_name + '_pointnet_model'
 
-# --------------------***Reproduce  our results***-----start--------------------
+# ----------***Reproduce  our results***-----start-----------
 # 1. Prepare training and test dataset for REDD and UK_DALE
 1. REDD and UK_DALE datasets are available in (http://redd.csail.mit.edu/) and (https://data.ukedc.rl.ac.uk/browse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2015/UK-DALE-disaggregated).
 2. Put the raw data into the folder directory dataset_preprocess, and named low_freq and UK_DALE respectively.
