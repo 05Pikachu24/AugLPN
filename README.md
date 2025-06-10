@@ -47,7 +47,7 @@ The best results('*.h5' files) will be stored in the file directory '/models'
 # 3. Start the test
 Change the file path (refer to the parameter 'param_file')  in the AugLPNNILM_test.py, and you will get the results soon.
     for example: param_file = args.trained_model_dir + '/AugLPN_' + args.appliance_name + '_pointnet_model'
-# --------------------***Reproduce  our results***-----end--------------------
+# ------------***Reproduce  our results***-----end----------
 
 Contact e-mail:
 2113301058@st.gxu.edu.cn
