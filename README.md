@@ -30,8 +30,8 @@ Change the file path (refer to the parameter 'param_file')  in the AugLPNNILM_te
 The structure of folder directory is as follows:<br>
    dataset_processing/ <br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;created_data/ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDD/ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UK_DALE/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDD/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UK_DALE/ <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;low_freq/ <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_1/ <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
