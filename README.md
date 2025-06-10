@@ -33,11 +33,11 @@ The structure of folder directory is as follows:<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDD/ <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UK_DALE/ <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;low_freq/ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_1/ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_1/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UK_DALE/ <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;redd_processing.py <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ukdale_processing.py <br>
 
