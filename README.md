@@ -29,17 +29,17 @@ Change the file path (refer to the parameter 'param_file')  in the AugLPNNILM_te
    (note that the preprocessing of UK_DALE dataset needs another step :put the preprocessed data in "dataset_preprocess/created_data/UK_DALE/" )
 The structure of folder directory is as follows:
    dataset_processing/ <br>
-   &nbsp;created_data/ <br>
-            &nbsp;&nbsp;REDD/ <br>
-            &nbsp;&nbsp;UK_DALE/ <br>
-        &nbsp;low_freq/ <br>
-            &nbsp;&nbsp;house_1/ <br>
-            &nbsp;&nbsp;house_2/ <br>
-            &nbsp;&nbsp;... <br>
-        &nbsp;UK_DALE/ <br>
-            &nbsp;&nbsp;house_2/ <br>
-        &nbsp;redd_processing.py <br>
-        &nbsp;ukdale_processing.py <br>
+   &nbsp;&nbsp;&nbsp;created_data/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;REDD/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;UK_DALE/ <br>
+        &nbsp;&nbsp;&nbsp;low_freq/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;house_1/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;... <br>
+        &nbsp;&nbsp;&nbsp;UK_DALE/ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;house_2/ <br>
+        &nbsp;&nbsp;&nbsp;redd_processing.py <br>
+        &nbsp;&nbsp;&nbsp;ukdale_processing.py <br>
 
 # 2. Start the training
 You can run AugLPNNILM_train.py to verify the results in our paper after you have preprocessed all the dataset.
